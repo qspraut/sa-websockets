@@ -23,6 +23,7 @@ export const createNote = (fields) => {
   note.title = fields.title;
   note.text = fields.text;
   note.prevText = fields.prevText;
+  note.color = fields.color;
   note.x = fields.x;
   note.y = fields.y;
   note.zIndex = fields.zIndex;
